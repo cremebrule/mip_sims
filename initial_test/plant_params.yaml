@@ -1,0 +1,6 @@
+plant_node:
+  ros__parameters:
+    frequency: 1
+    noise: 0.00
+    timeout: 5
+    

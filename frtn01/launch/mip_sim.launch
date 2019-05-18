@@ -1,0 +1,8 @@
+<launch>
+  <arg name="freq"/>
+  <arg name="noise"/>
+  <param name="frequency" value="$(arg freq)"/>
+  <param name="noise" value="$(arg noise)"/>
+  <node pkg="frtn01" type="mip_controller" name="mip_controller" output="screen"/>
+  <node pkg="frtn01" type="mip_plant" name="mip_plant" output="screen"/>
+</launch>
